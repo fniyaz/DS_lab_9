@@ -1,6 +1,6 @@
 # DS_lab_9
-```
 rs.status()
+```
 {
         "set" : "rs0",
         "date" : ISODate("2019-11-02T01:11:26.837Z"),
@@ -127,10 +127,9 @@ rs.status()
         },
         "operationTime" : Timestamp(1572657078, 1)
 }
-
-
-
+```
 rs.config()
+```
 {
         "_id" : "rs0",
         "version" : 1,
@@ -195,10 +194,11 @@ rs.config()
         }
 }
 ```
+![First flood](screen1.png.png)
 
 
-```
 rs.status()
+```
 {
         "set" : "rs0",
         "date" : ISODate("2019-11-02T01:24:34.789Z"),
@@ -345,11 +345,9 @@ rs.status()
         },
         "operationTime" : Timestamp(1572657858, 5)
 }
-
-
-
-
+```
 rs.config()
+```
 {
         "_id" : "rs0",
         "version" : 1,
@@ -414,3 +412,4 @@ rs.config()
         }
 }
 ```
+![First flood](screen2.png.png)
